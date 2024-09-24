@@ -1,0 +1,61 @@
+.header {
+    background-color: black;
+    display: flex;
+    position: fixed;
+    align-items: center;
+    justify-content: center;
+    right: 0;
+    left: 0;
+    top: 0;
+    z-index: 100;
+}
+
+.header .nav-links{
+    display: flex;
+    padding: 0 0;
+    height: 40px;
+    position: relative;
+}
+
+.header .nav-links li{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    list-style: none;
+    margin: 0 50px;
+    
+    
+}
+
+.header .nav-links li p{
+    transition: opacity 0.15s;
+}
+
+.header .nav-links li:hover p{
+    opacity: 0.7;
+}
+
+.header .nav-links li a{
+    color: white;
+    text-decoration: none;
+}
+
+.header .nav-links .underline{
+    color: white;
+    position: absolute;
+    height: 3px;
+    width: 30px;
+    background-color: red;
+    pointer-events: none;
+    transition: left 1s ease;
+}
+
+
+
+/* About us */
+
+.header .nav-links .about-us {
+
+
+}

@@ -1,0 +1,22 @@
+.not-found-container{
+    padding-top: 100px;
+
+}
+
+.not-found-container img{
+    height: 20%;
+    width: 20%;
+    filter:invert(80%);
+}
+
+.not-found-container .number-404{
+    color: rgb(152, 151, 151);
+    font-weight: 600;
+    font-size: 50px;
+    margin: 0;
+}
+
+.not-found-container .page-not-found{
+    color: gray;
+    font-size: 20px;
+}
